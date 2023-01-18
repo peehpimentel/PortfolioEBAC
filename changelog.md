@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 
 - Added folders and a changelog file.
+- Added a gitignore file.
 ### Changed 
 
 - Changed the name of a folder and file from Portuguese to English. 
