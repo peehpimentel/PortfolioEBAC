@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <input type="text" placeholder="Texts"><br><br>
+        <label for="email">Enter with your email</label> <!-- when we use "for" it'll select whats next to the matching id, in this case if the users clicks on text "Enter with your email" it'll automatically select the input box for they to write their e-mail. -->
+        <input type="email" placeholder="E-mail" id="email"><br><br>
+        <input type="tel" placeholder="(00)12345-6789" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}"><br><br>
+        <input type="number" placeholder="Choose a number"><br><br> <!-- max="10" min="0" step="2" <- we use this when we want to set a minimum and maximum range of numbers in a input type number and the intervals between numbers. -->
+        <input type="file"><br><br>
+        <input type="color"><br><br>
+        <input type="checkbox" id="terms"> <label for="terms">I agree with Terms and Conditions.</label><br><br>
+        <p>
+            What's your favourite color?
+        </p>
+        <input type="radio" id="red" name="favourite-color"> <label for="red">Red</label>
+        <input type="radio" id="blue" name="favourite-color"> <label for="blue">Blue</label>
+        <input type="radio" id="green" name="favourite-color" checked> <label for="green">Green</label>
+        <!-- when we want to create a selection that only one option is permitted, we need to use the attribute "name" on our input radio otherwise the user'll be capable of selection more than one. -->
+        <br><br>
+        <label for="movies">What's your favorite movie between those three?</label>
+        <select id="movies">
+            <option value="the-martian">The Martian</option>
+            <option value="first-man">First Man</option>
+            <option value="interstellar" selected>Interstellar</option>
+        </select><br><br>
+        <textarea placeholder="Write us a suggestion! Maximum of 10 rows." rows="10"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <hr>
+        <a href="./index.html">Home</a><br>
+        <a href="./containers.html">Containers</a><br>
+        <a href="./tables.html">Tables</a><br>
+        <a href="./lists.html">Lists</a>
+        <a href="./medias.html">Medias</a>
+    </form>
+</body>
+</html>
