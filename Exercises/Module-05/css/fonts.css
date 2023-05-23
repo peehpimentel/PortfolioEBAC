@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Blippo';
+
+    src: url(../fonts/Blippo\ Stencil\ D\ OT\ Stencil.otf) format('opentype'), url(../fonts/blippo-stencil-d-ot-stencil.ttf) format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+header h1 {
+    font-family: 'Blippo', Stencil, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
